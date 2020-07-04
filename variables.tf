@@ -5,18 +5,18 @@
 
 
 variable "region-name" {
-  default = "ap-southeast-1"
+  default = "eu-west-2"
   type    = string
 }
 
 variable "cluster-name" {
-  default = "eks-msxops"
+  default = "tejas-tech"
   type    = string
 }
 
 
 variable "vpc-name" {
-  default = "test"
+  default = "devops"
   type    = string
 }
 
@@ -39,6 +39,6 @@ variable "max-instances" {
 }
 
 variable "key-pair" {
-  default = "TypeExistingKeyPairName"
+  default = "devops"
   type    = string
 }
